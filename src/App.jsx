@@ -152,6 +152,9 @@ function App() {
         <button style={{ marginTop: '1rem' }} onClick={handlePrintSelected}>
           Print Selected
         </button>
+        <button style={{ marginTop: '1rem', marginLeft: '3rem' }} onClick={handlePrintSelected}>
+          Get Comments 
+        </button>
       </div>
 
       {printedLinks.length > 0 && (
