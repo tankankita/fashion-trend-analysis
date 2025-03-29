@@ -1,0 +1,41 @@
+.url-table {
+    width: 100%;
+  }
+  
+  .table-header,
+  .table-body {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-body-wrapper {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .link-column {
+    word-break: break-word;
+  }
+  
+  @media (max-width: 600px) {
+    .search-bar {
+      flex-direction: column;
+    }
+  
+    .action-buttons {
+      flex-direction: column;
+    }
+  
+    th:nth-child(3),
+    td:nth-child(3) {
+      word-break: break-word;
+      font-size: 0.9rem;
+    }
+  }
+  
