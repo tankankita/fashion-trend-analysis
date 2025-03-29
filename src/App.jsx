@@ -42,12 +42,12 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="title">Trend Analysis</h1>
+      <h1 className="title">Fashion Trend Analysis</h1>
 
       <div className="search-bar">
         <input
           type="text"
-          placeholder="Search..."
+          placeholder="Search for Hashtags..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
